@@ -378,8 +378,4 @@ return cljs.core.contains_QMARK_.call(null,set1,p1__21793_SHARP_);
 }),set2)));
 });
 
-<<<<<<< HEAD
-//# sourceMappingURL=set.js.map?rel=1602979372982
-=======
-//# sourceMappingURL=set.js.map?rel=1608004497833
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=set.js.map?rel=1608009504981

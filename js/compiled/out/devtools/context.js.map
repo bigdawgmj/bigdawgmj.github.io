@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"file":"\/home\/viking\/code\/myblog\/resources\/public\/js\/compiled\/out\/devtools\/context.js","sources":["context.cljs?rel=1602979377979"],"lineCount":11,"mappings":";AAAA;;AAGA,4BAAA,5BAAgBA;AAAhB,AACEC;;AAEF,+BAAA,\/BAAgBC;AAAhB,AACE,OAAW,AAACF","names":["devtools.context\/get-root","goog\/global","devtools.context\/get-console"]}
-=======
-{"version":3,"file":"\/home\/viking\/code\/myblog\/resources\/public\/js\/compiled\/out\/devtools\/context.js","sources":["context.cljs?rel=1608004503834"],"lineCount":11,"mappings":";AAAA;;AAGA,4BAAA,5BAAgBA;AAAhB,AACEC;;AAEF,+BAAA,\/BAAgBC;AAAhB,AACE,OAAW,AAACF","names":["devtools.context\/get-root","goog\/global","devtools.context\/get-console"]}
->>>>>>> 8f3c68a (Initial Commit)
+{"version":3,"file":"\/home\/viking\/code\/myblog\/resources\/public\/js\/compiled\/out\/devtools\/context.js","sources":["context.cljs?rel=1608009510760"],"lineCount":11,"mappings":";AAAA;;AAGA,4BAAA,5BAAgBA;AAAhB,AACEC;;AAEF,+BAAA,\/BAAgBC;AAAhB,AACE,OAAW,AAACF","names":["devtools.context\/get-root","goog\/global","devtools.context\/get-console"]}

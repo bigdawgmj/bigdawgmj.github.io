@@ -6,25 +6,14 @@ goog.require('devtools.context');
 devtools.reporter.issues_url = "https://github.com/binaryage/cljs-devtools/issues";
 devtools.reporter.report_internal_error_BANG_ = (function devtools$reporter$report_internal_error_BANG_(var_args){
 var args__4742__auto__ = [];
-<<<<<<< HEAD
-var len__4736__auto___30423 = arguments.length;
-var i__4737__auto___30424 = (0);
+var len__4736__auto___30773 = arguments.length;
+var i__4737__auto___30774 = (0);
 while(true){
-if((i__4737__auto___30424 < len__4736__auto___30423)){
-args__4742__auto__.push((arguments[i__4737__auto___30424]));
+if((i__4737__auto___30774 < len__4736__auto___30773)){
+args__4742__auto__.push((arguments[i__4737__auto___30774]));
 
-var G__30425 = (i__4737__auto___30424 + (1));
-i__4737__auto___30424 = G__30425;
-=======
-var len__4736__auto___30928 = arguments.length;
-var i__4737__auto___30929 = (0);
-while(true){
-if((i__4737__auto___30929 < len__4736__auto___30928)){
-args__4742__auto__.push((arguments[i__4737__auto___30929]));
-
-var G__30930 = (i__4737__auto___30929 + (1));
-i__4737__auto___30929 = G__30930;
->>>>>>> 8f3c68a (Initial Commit)
+var G__30775 = (i__4737__auto___30774 + (1));
+i__4737__auto___30774 = G__30775;
 continue;
 } else {
 }
@@ -35,17 +24,10 @@ var argseq__4743__auto__ = ((((1) < args__4742__auto__.length))?(new cljs.core.I
 return devtools.reporter.report_internal_error_BANG_.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4743__auto__);
 });
 
-<<<<<<< HEAD
-(devtools.reporter.report_internal_error_BANG_.cljs$core$IFn$_invoke$arity$variadic = (function (e,p__30418){
-var vec__30419 = p__30418;
-var context = cljs.core.nth.call(null,vec__30419,(0),null);
-var footer = cljs.core.nth.call(null,vec__30419,(1),null);
-=======
-(devtools.reporter.report_internal_error_BANG_.cljs$core$IFn$_invoke$arity$variadic = (function (e,p__30923){
-var vec__30924 = p__30923;
-var context = cljs.core.nth.call(null,vec__30924,(0),null);
-var footer = cljs.core.nth.call(null,vec__30924,(1),null);
->>>>>>> 8f3c68a (Initial Commit)
+(devtools.reporter.report_internal_error_BANG_.cljs$core$IFn$_invoke$arity$variadic = (function (e,p__30768){
+var vec__30769 = p__30768;
+var context = cljs.core.nth.call(null,vec__30769,(0),null);
+var footer = cljs.core.nth.call(null,vec__30769,(1),null);
 var console = devtools.context.get_console.call(null);
 try{var message = (((e instanceof Error))?(function (){var or__4126__auto__ = e.message;
 if(cljs.core.truth_(or__4126__auto__)){
@@ -81,35 +63,19 @@ group_collapsed.apply(console,header);
 log.apply(console,details);
 
 return group_end.call(console);
-<<<<<<< HEAD
-}catch (e30422){var e__$1 = e30422;
-=======
-}catch (e30927){var e__$1 = e30927;
->>>>>>> 8f3c68a (Initial Commit)
+}catch (e30772){var e__$1 = e30772;
 return console.error("FATAL: report-internal-error! failed",e__$1);
 }}));
 
 (devtools.reporter.report_internal_error_BANG_.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-<<<<<<< HEAD
-(devtools.reporter.report_internal_error_BANG_.cljs$lang$applyTo = (function (seq30416){
-var G__30417 = cljs.core.first.call(null,seq30416);
-var seq30416__$1 = cljs.core.next.call(null,seq30416);
+(devtools.reporter.report_internal_error_BANG_.cljs$lang$applyTo = (function (seq30766){
+var G__30767 = cljs.core.first.call(null,seq30766);
+var seq30766__$1 = cljs.core.next.call(null,seq30766);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__30417,seq30416__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__30767,seq30766__$1);
 }));
 
 
-//# sourceMappingURL=reporter.js.map?rel=1602979379827
-=======
-(devtools.reporter.report_internal_error_BANG_.cljs$lang$applyTo = (function (seq30921){
-var G__30922 = cljs.core.first.call(null,seq30921);
-var seq30921__$1 = cljs.core.next.call(null,seq30921);
-var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__30922,seq30921__$1);
-}));
-
-
-//# sourceMappingURL=reporter.js.map?rel=1608004505834
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=reporter.js.map?rel=1608009512889

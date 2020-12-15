@@ -18,25 +18,14 @@ return devtools.formatters.state._STAR_current_state_STAR_;
 });
 devtools.formatters.state.update_current_state_BANG_ = (function devtools$formatters$state$update_current_state_BANG_(var_args){
 var args__4742__auto__ = [];
-<<<<<<< HEAD
-var len__4736__auto___28681 = arguments.length;
-var i__4737__auto___28682 = (0);
+var len__4736__auto___29031 = arguments.length;
+var i__4737__auto___29032 = (0);
 while(true){
-if((i__4737__auto___28682 < len__4736__auto___28681)){
-args__4742__auto__.push((arguments[i__4737__auto___28682]));
+if((i__4737__auto___29032 < len__4736__auto___29031)){
+args__4742__auto__.push((arguments[i__4737__auto___29032]));
 
-var G__28683 = (i__4737__auto___28682 + (1));
-i__4737__auto___28682 = G__28683;
-=======
-var len__4736__auto___29186 = arguments.length;
-var i__4737__auto___29187 = (0);
-while(true){
-if((i__4737__auto___29187 < len__4736__auto___29186)){
-args__4742__auto__.push((arguments[i__4737__auto___29187]));
-
-var G__29188 = (i__4737__auto___29187 + (1));
-i__4737__auto___29187 = G__29188;
->>>>>>> 8f3c68a (Initial Commit)
+var G__29033 = (i__4737__auto___29032 + (1));
+i__4737__auto___29032 = G__29033;
 continue;
 } else {
 }
@@ -59,19 +48,11 @@ return (devtools.formatters.state._STAR_current_state_STAR_ = cljs.core.apply.ca
 (devtools.formatters.state.update_current_state_BANG_.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-<<<<<<< HEAD
-(devtools.formatters.state.update_current_state_BANG_.cljs$lang$applyTo = (function (seq28679){
-var G__28680 = cljs.core.first.call(null,seq28679);
-var seq28679__$1 = cljs.core.next.call(null,seq28679);
+(devtools.formatters.state.update_current_state_BANG_.cljs$lang$applyTo = (function (seq29029){
+var G__29030 = cljs.core.first.call(null,seq29029);
+var seq29029__$1 = cljs.core.next.call(null,seq29029);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__28680,seq28679__$1);
-=======
-(devtools.formatters.state.update_current_state_BANG_.cljs$lang$applyTo = (function (seq29184){
-var G__29185 = cljs.core.first.call(null,seq29184);
-var seq29184__$1 = cljs.core.next.call(null,seq29184);
-var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__29185,seq29184__$1);
->>>>>>> 8f3c68a (Initial Commit)
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__29030,seq29029__$1);
 }));
 
 devtools.formatters.state.push_object_to_current_history_BANG_ = (function devtools$formatters$state$push_object_to_current_history_BANG_(object){
@@ -82,13 +63,8 @@ return new cljs.core.Keyword(null,"history","history",-247395220).cljs$core$IFn$
 });
 devtools.formatters.state.is_circular_QMARK_ = (function devtools$formatters$state$is_circular_QMARK_(object){
 var history = devtools.formatters.state.get_current_history.call(null);
-<<<<<<< HEAD
-return cljs.core.some.call(null,(function (p1__28684_SHARP_){
-return (p1__28684_SHARP_ === object);
-=======
-return cljs.core.some.call(null,(function (p1__29189_SHARP_){
-return (p1__29189_SHARP_ === object);
->>>>>>> 8f3c68a (Initial Commit)
+return cljs.core.some.call(null,(function (p1__29034_SHARP_){
+return (p1__29034_SHARP_ === object);
 }),history);
 });
 devtools.formatters.state.prevent_recursion_QMARK_ = (function devtools$formatters$state$prevent_recursion_QMARK_(){
@@ -125,8 +101,4 @@ devtools.formatters.state.reset_depth_limits = (function devtools$formatters$sta
 return devtools.formatters.state.set_managed_print_level.call(null,devtools.formatters.state.set_depth_budget.call(null,state,null),null);
 });
 
-<<<<<<< HEAD
-//# sourceMappingURL=state.js.map?rel=1602979378430
-=======
-//# sourceMappingURL=state.js.map?rel=1608004504323
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=state.js.map?rel=1608009511290

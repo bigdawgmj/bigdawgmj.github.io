@@ -216,8 +216,4 @@ return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__21800,G__21801
 (meta_merge.core.meta_merge.cljs$lang$maxFixedArity = (2));
 
 
-<<<<<<< HEAD
-//# sourceMappingURL=core.js.map?rel=1602979373011
-=======
-//# sourceMappingURL=core.js.map?rel=1608004497863
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=core.js.map?rel=1608009505011

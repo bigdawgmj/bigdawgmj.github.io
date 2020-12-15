@@ -92,8 +92,4 @@ return cljs.reader.read_string.call(null,opts,s);
 (clojure.edn.read_string.cljs$lang$maxFixedArity = 2);
 
 
-<<<<<<< HEAD
-//# sourceMappingURL=edn.js.map?rel=1602979372944
-=======
-//# sourceMappingURL=edn.js.map?rel=1608004497794
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=edn.js.map?rel=1608009504941

@@ -6,13 +6,8 @@ cljs.env.default_compiler_env_STAR_ = (function cljs$env$default_compiler_env_ST
 return cljs.core.merge.call(null,new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword("cljs.analyzer","namespaces","cljs.analyzer/namespaces",-260788927),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Symbol(null,"cljs.user","cljs.user",877795071,null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Symbol(null,"cljs.user","cljs.user",877795071,null)], null)], null),new cljs.core.Keyword("cljs.analyzer","constant-table","cljs.analyzer/constant-table",-114131889),cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword("cljs.analyzer","data-readers","cljs.analyzer/data-readers",1778544933),cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword("cljs.analyzer","externs","cljs.analyzer/externs",893359239),null,new cljs.core.Keyword(null,"options","options",99638489),options], null));
 });
 cljs.env.default_compiler_env = (function cljs$env$default_compiler_env(var_args){
-<<<<<<< HEAD
-var G__23052 = arguments.length;
-switch (G__23052) {
-=======
 var G__23389 = arguments.length;
 switch (G__23389) {
->>>>>>> 8f3c68a (Initial Commit)
 case 0:
 return cljs.env.default_compiler_env.cljs$core$IFn$_invoke$arity$0();
 
@@ -38,8 +33,4 @@ return cljs.core.atom.call(null,cljs.env.default_compiler_env_STAR_.call(null,op
 (cljs.env.default_compiler_env.cljs$lang$maxFixedArity = 1);
 
 
-<<<<<<< HEAD
-//# sourceMappingURL=env.js.map?rel=1602979373669
-=======
-//# sourceMappingURL=env.js.map?rel=1608004498982
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=env.js.map?rel=1608009506141

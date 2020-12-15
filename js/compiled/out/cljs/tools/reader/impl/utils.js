@@ -382,8 +382,4 @@ return code;
 }
 });
 
-<<<<<<< HEAD
-//# sourceMappingURL=utils.js.map?rel=1602979372279
-=======
-//# sourceMappingURL=utils.js.map?rel=1608004497111
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=utils.js.map?rel=1608009504245

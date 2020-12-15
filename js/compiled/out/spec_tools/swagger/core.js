@@ -58,32 +58,18 @@ return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ty
 cljs.core._add_method.call(null,spec_tools.swagger.core.accept_spec,new cljs.core.Keyword("spec-tools.visitor","set","spec-tools.visitor/set",1650075415),(function (_,___$1,children,___$2){
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"enum","enum",1679018432),children,new cljs.core.Keyword(null,"type","type",1174270348),"string"], null);
 }));
-<<<<<<< HEAD
-cljs.core._add_method.call(null,spec_tools.swagger.core.accept_spec,new cljs.core.Symbol("clojure.spec.alpha","nilable","clojure.spec.alpha/nilable",-1718644550,null),(function (_,___$1,children,p__26808){
-var map__26809 = p__26808;
-var map__26809__$1 = (((((!((map__26809 == null))))?(((((map__26809.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__26809.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__26809):map__26809);
-var type = cljs.core.get.call(null,map__26809__$1,new cljs.core.Keyword(null,"type","type",1174270348));
-var in$ = cljs.core.get.call(null,map__26809__$1,new cljs.core.Keyword(null,"in","in",-1531184865));
-=======
 cljs.core._add_method.call(null,spec_tools.swagger.core.accept_spec,new cljs.core.Symbol("clojure.spec.alpha","nilable","clojure.spec.alpha/nilable",-1718644550,null),(function (_,___$1,children,p__27265){
 var map__27266 = p__27265;
 var map__27266__$1 = (((((!((map__27266 == null))))?(((((map__27266.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__27266.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__27266):map__27266);
 var type = cljs.core.get.call(null,map__27266__$1,new cljs.core.Keyword(null,"type","type",1174270348));
 var in$ = cljs.core.get.call(null,map__27266__$1,new cljs.core.Keyword(null,"in","in",-1531184865));
->>>>>>> 8f3c68a (Initial Commit)
 var k = ((((cljs.core._EQ_.call(null,type,new cljs.core.Keyword(null,"parameter","parameter",1978789597))) && (cljs.core.not_EQ_.call(null,in$,new cljs.core.Keyword(null,"body","body",-2049205669)))))?new cljs.core.Keyword(null,"allowEmptyValue","allowEmptyValue",-1066530890):new cljs.core.Keyword(null,"x-nullable","x-nullable",1492681247));
 return cljs.core.assoc.call(null,spec_tools.impl.unwrap.call(null,children),k,true);
 }));
 cljs.core._add_method.call(null,spec_tools.swagger.core.accept_spec,new cljs.core.Keyword("spec-tools.visitor","spec","spec-tools.visitor/spec",1770325200),(function (dispatch,spec,children,options){
-<<<<<<< HEAD
-var vec__26811 = spec_tools.impl.extract_form.call(null,spec);
-var _ = cljs.core.nth.call(null,vec__26811,(0),null);
-var data = cljs.core.nth.call(null,vec__26811,(1),null);
-=======
 var vec__27268 = spec_tools.impl.extract_form.call(null,spec);
 var _ = cljs.core.nth.call(null,vec__27268,(0),null);
 var data = cljs.core.nth.call(null,vec__27268,(1),null);
->>>>>>> 8f3c68a (Initial Commit)
 var swagger_meta = spec_tools.impl.unlift_keys.call(null,data,"swagger");
 var or__4126__auto__ = new cljs.core.Keyword(null,"swagger","swagger",-79684232).cljs$core$IFn$_invoke$arity$1(data);
 if(cljs.core.truth_(or__4126__auto__)){
@@ -103,13 +89,8 @@ return spec_tools.json_schema.accept_spec.call(null,dispatch,spec,children,optio
  *   not true.
  */
 spec_tools.swagger.core.transform = (function spec_tools$swagger$core$transform(var_args){
-<<<<<<< HEAD
-var G__26815 = arguments.length;
-switch (G__26815) {
-=======
 var G__27272 = arguments.length;
 switch (G__27272) {
->>>>>>> 8f3c68a (Initial Commit)
 case 1:
 return spec_tools.swagger.core.transform.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -163,19 +144,6 @@ return "";
 })(),new cljs.core.Keyword(null,"required","required",1807647006),(!(spec_tools.impl.nilable_spec_QMARK_.call(null,spec))),new cljs.core.Keyword(null,"schema","schema",-1582001791),schema], null)], null);
 }));
 cljs.core._add_method.call(null,spec_tools.swagger.core.extract_parameter,new cljs.core.Keyword(null,"default","default",-1987822328),(function (in$,spec){
-<<<<<<< HEAD
-var map__26817 = spec_tools.swagger.core.transform.call(null,spec,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"in","in",-1531184865),in$,new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"parameter","parameter",1978789597)], null));
-var map__26817__$1 = (((((!((map__26817 == null))))?(((((map__26817.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__26817.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__26817):map__26817);
-var properties = cljs.core.get.call(null,map__26817__$1,new cljs.core.Keyword(null,"properties","properties",685819552));
-var required = cljs.core.get.call(null,map__26817__$1,new cljs.core.Keyword(null,"required","required",1807647006));
-return cljs.core.mapv.call(null,(function (p__26819){
-var vec__26820 = p__26819;
-var k = cljs.core.nth.call(null,vec__26820,(0),null);
-var map__26823 = cljs.core.nth.call(null,vec__26820,(1),null);
-var map__26823__$1 = (((((!((map__26823 == null))))?(((((map__26823.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__26823.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__26823):map__26823);
-var schema = map__26823__$1;
-var type = cljs.core.get.call(null,map__26823__$1,new cljs.core.Keyword(null,"type","type",1174270348));
-=======
 var map__27274 = spec_tools.swagger.core.transform.call(null,spec,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"in","in",-1531184865),in$,new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"parameter","parameter",1978789597)], null));
 var map__27274__$1 = (((((!((map__27274 == null))))?(((((map__27274.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__27274.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__27274):map__27274);
 var properties = cljs.core.get.call(null,map__27274__$1,new cljs.core.Keyword(null,"properties","properties",685819552));
@@ -187,7 +155,6 @@ var map__27280 = cljs.core.nth.call(null,vec__27277,(1),null);
 var map__27280__$1 = (((((!((map__27280 == null))))?(((((map__27280.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__27280.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__27280):map__27280);
 var schema = map__27280__$1;
 var type = cljs.core.get.call(null,map__27280__$1,new cljs.core.Keyword(null,"type","type",1174270348));
->>>>>>> 8f3c68a (Initial Commit)
 return cljs.core.merge.call(null,new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"in","in",-1531184865),cljs.core.name.call(null,in$),new cljs.core.Keyword(null,"name","name",1843675177),k,new cljs.core.Keyword(null,"description","description",-1428560544),(function (){var or__4126__auto__ = spec_tools.core.spec_description.call(null,spec);
 if(cljs.core.truth_(or__4126__auto__)){
 return or__4126__auto__;
@@ -216,26 +183,6 @@ return or__4126__auto__;
 } else {
 return cljs.core.PersistentArrayMap.EMPTY;
 }
-<<<<<<< HEAD
-})(),(function (){var iter__4529__auto__ = (function spec_tools$swagger$core$iter__26825(s__26826){
-return (new cljs.core.LazySeq(null,(function (){
-var s__26826__$1 = s__26826;
-while(true){
-var temp__5720__auto__ = cljs.core.seq.call(null,s__26826__$1);
-if(temp__5720__auto__){
-var s__26826__$2 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,s__26826__$2)){
-var c__4527__auto__ = cljs.core.chunk_first.call(null,s__26826__$2);
-var size__4528__auto__ = cljs.core.count.call(null,c__4527__auto__);
-var b__26828 = cljs.core.chunk_buffer.call(null,size__4528__auto__);
-if((function (){var i__26827 = (0);
-while(true){
-if((i__26827 < size__4528__auto__)){
-var vec__26829 = cljs.core._nth.call(null,c__4527__auto__,i__26827);
-var status = cljs.core.nth.call(null,vec__26829,(0),null);
-var response = cljs.core.nth.call(null,vec__26829,(1),null);
-cljs.core.chunk_append.call(null,b__26828,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,(function (){var $ = response;
-=======
 })(),(function (){var iter__4529__auto__ = (function spec_tools$swagger$core$iter__27282(s__27283){
 return (new cljs.core.LazySeq(null,(function (){
 var s__27283__$1 = s__27283;
@@ -254,18 +201,12 @@ var vec__27286 = cljs.core._nth.call(null,c__4527__auto__,i__27284);
 var status = cljs.core.nth.call(null,vec__27286,(0),null);
 var response = cljs.core.nth.call(null,vec__27286,(1),null);
 cljs.core.chunk_append.call(null,b__27285,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,(function (){var $ = response;
->>>>>>> 8f3c68a (Initial Commit)
 var $__$1 = (cljs.core.truth_(new cljs.core.Keyword(null,"schema","schema",-1582001791).cljs$core$IFn$_invoke$arity$1($))?cljs.core.update.call(null,$,new cljs.core.Keyword(null,"schema","schema",-1582001791),spec_tools.swagger.core.transform,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"schema","schema",-1582001791)], null)):$);
 return cljs.core.update.call(null,$__$1,new cljs.core.Keyword(null,"description","description",-1428560544),cljs.core.fnil.call(null,cljs.core.identity,""));
 })()], null));
 
-<<<<<<< HEAD
-var G__26835 = (i__26827 + (1));
-i__26827 = G__26835;
-=======
 var G__27292 = (i__27284 + (1));
 i__27284 = G__27292;
->>>>>>> 8f3c68a (Initial Commit)
 continue;
 } else {
 return true;
@@ -273,20 +214,6 @@ return true;
 break;
 }
 })()){
-<<<<<<< HEAD
-return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__26828),spec_tools$swagger$core$iter__26825.call(null,cljs.core.chunk_rest.call(null,s__26826__$2)));
-} else {
-return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__26828),null);
-}
-} else {
-var vec__26832 = cljs.core.first.call(null,s__26826__$2);
-var status = cljs.core.nth.call(null,vec__26832,(0),null);
-var response = cljs.core.nth.call(null,vec__26832,(1),null);
-return cljs.core.cons.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,(function (){var $ = response;
-var $__$1 = (cljs.core.truth_(new cljs.core.Keyword(null,"schema","schema",-1582001791).cljs$core$IFn$_invoke$arity$1($))?cljs.core.update.call(null,$,new cljs.core.Keyword(null,"schema","schema",-1582001791),spec_tools.swagger.core.transform,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"schema","schema",-1582001791)], null)):$);
-return cljs.core.update.call(null,$__$1,new cljs.core.Keyword(null,"description","description",-1428560544),cljs.core.fnil.call(null,cljs.core.identity,""));
-})()], null),spec_tools$swagger$core$iter__26825.call(null,cljs.core.rest.call(null,s__26826__$2)));
-=======
 return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__27285),spec_tools$swagger$core$iter__27282.call(null,cljs.core.chunk_rest.call(null,s__27283__$2)));
 } else {
 return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__27285),null);
@@ -299,7 +226,6 @@ return cljs.core.cons.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.
 var $__$1 = (cljs.core.truth_(new cljs.core.Keyword(null,"schema","schema",-1582001791).cljs$core$IFn$_invoke$arity$1($))?cljs.core.update.call(null,$,new cljs.core.Keyword(null,"schema","schema",-1582001791),spec_tools.swagger.core.transform,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"schema","schema",-1582001791)], null)):$);
 return cljs.core.update.call(null,$__$1,new cljs.core.Keyword(null,"description","description",-1428560544),cljs.core.fnil.call(null,cljs.core.identity,""));
 })()], null),spec_tools$swagger$core$iter__27282.call(null,cljs.core.rest.call(null,s__27283__$2)));
->>>>>>> 8f3c68a (Initial Commit)
 }
 } else {
 return null;
@@ -319,19 +245,6 @@ return or__4126__auto__;
 return cljs.core.PersistentVector.EMPTY;
 }
 })();
-<<<<<<< HEAD
-var new$ = cljs.core.mapcat.call(null,(function (p__26836){
-var vec__26837 = p__26836;
-var in$ = cljs.core.nth.call(null,vec__26837,(0),null);
-var spec = cljs.core.nth.call(null,vec__26837,(1),null);
-return spec_tools.swagger.core.extract_parameter.call(null,in$,spec);
-}),v);
-var merged = cljs.core.vec.call(null,cljs.core.reverse.call(null,cljs.core.first.call(null,cljs.core.reduce.call(null,(function (p__26840,p){
-var vec__26841 = p__26840;
-var ps = cljs.core.nth.call(null,vec__26841,(0),null);
-var cache = cljs.core.nth.call(null,vec__26841,(1),null);
-var acc__$1 = vec__26841;
-=======
 var new$ = cljs.core.mapcat.call(null,(function (p__27293){
 var vec__27294 = p__27293;
 var in$ = cljs.core.nth.call(null,vec__27294,(0),null);
@@ -343,7 +256,6 @@ var vec__27298 = p__27297;
 var ps = cljs.core.nth.call(null,vec__27298,(0),null);
 var cache = cljs.core.nth.call(null,vec__27298,(1),null);
 var acc__$1 = vec__27298;
->>>>>>> 8f3c68a (Initial Commit)
 var c = cljs.core.select_keys.call(null,p,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"in","in",-1531184865),new cljs.core.Keyword(null,"name","name",1843675177)], null));
 if(cljs.core.not.call(null,cache.call(null,c))){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.conj.call(null,ps,p),cljs.core.conj.call(null,cache,c)], null);
@@ -376,13 +288,8 @@ return x__$1;
  *   with the `spec-tools.swagger.core/expand` multimethod.
  */
 spec_tools.swagger.core.swagger_spec = (function spec_tools$swagger$core$swagger_spec(var_args){
-<<<<<<< HEAD
-var G__26845 = arguments.length;
-switch (G__26845) {
-=======
 var G__27302 = arguments.length;
 switch (G__27302) {
->>>>>>> 8f3c68a (Initial Commit)
 case 1:
 return spec_tools.swagger.core.swagger_spec.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -408,8 +315,4 @@ return spec_tools.swagger.core.expand_qualified_keywords.call(null,x,options);
 (spec_tools.swagger.core.swagger_spec.cljs$lang$maxFixedArity = 2);
 
 
-<<<<<<< HEAD
-//# sourceMappingURL=core.js.map?rel=1602979376783
-=======
-//# sourceMappingURL=core.js.map?rel=1608004502455
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=core.js.map?rel=1608009509572

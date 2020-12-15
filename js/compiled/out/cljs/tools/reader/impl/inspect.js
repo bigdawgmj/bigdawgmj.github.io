@@ -153,8 +153,4 @@ return cljs.tools.reader.impl.inspect.inspect_STAR_.call(null,truncate,x);
 (cljs.tools.reader.impl.inspect.inspect.cljs$lang$maxFixedArity = 2);
 
 
-<<<<<<< HEAD
-//# sourceMappingURL=inspect.js.map?rel=1602979372421
-=======
-//# sourceMappingURL=inspect.js.map?rel=1608004497258
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=inspect.js.map?rel=1608009504394

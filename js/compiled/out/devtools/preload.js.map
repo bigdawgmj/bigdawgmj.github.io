@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"file":"\/home\/viking\/code\/myblog\/resources\/public\/js\/compiled\/out\/devtools\/preload.js","sources":["preload.cljs?rel=1602979380258"],"lineCount":11,"mappings":";AAAA;;;;AASA,GAAA,AAAAA,wBAAQ,8BAAA,9BAACC;AACP,AAACC;;AADH","names":["cljs.core\/not","devtools.prefs\/pref","devtools.core\/install!"]}
-=======
-{"version":3,"file":"\/home\/viking\/code\/myblog\/resources\/public\/js\/compiled\/out\/devtools\/preload.js","sources":["preload.cljs?rel=1608004506288"],"lineCount":11,"mappings":";AAAA;;;;AASA,GAAA,AAAAA,wBAAQ,8BAAA,9BAACC;AACP,AAACC;;AADH","names":["cljs.core\/not","devtools.prefs\/pref","devtools.core\/install!"]}
->>>>>>> 8f3c68a (Initial Commit)
+{"version":3,"file":"\/home\/viking\/code\/myblog\/resources\/public\/js\/compiled\/out\/devtools\/preload.js","sources":["preload.cljs?rel=1608009513171"],"lineCount":11,"mappings":";AAAA;;;;AASA,GAAA,AAAAA,wBAAQ,8BAAA,9BAACC;AACP,AAACC;;AADH","names":["cljs.core\/not","devtools.prefs\/pref","devtools.core\/install!"]}
