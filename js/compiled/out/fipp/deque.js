@@ -13,8 +13,4 @@ return clojure.core.rrb_vector.catvec.call(null,new cljs.core.PersistentVector(n
 });
 fipp.deque.concat = clojure.core.rrb_vector.catvec;
 
-<<<<<<< HEAD
-//# sourceMappingURL=deque.js.map?rel=1602993598755
-=======
-//# sourceMappingURL=deque.js.map?rel=1608004501446
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=deque.js.map?rel=1608009508700

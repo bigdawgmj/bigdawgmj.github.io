@@ -478,8 +478,4 @@ return null;
 (reitit.impl.goog_extend.cljs$lang$macro = true);
 
 
-<<<<<<< HEAD
-//# sourceMappingURL=impl.js.map?rel=1602979373560
-=======
-//# sourceMappingURL=impl.js.map?rel=1608004498476
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=impl.js.map?rel=1608009505585

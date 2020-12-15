@@ -927,8 +927,4 @@ return null;
 (cljs.tools.reader.edn.read_string.cljs$lang$maxFixedArity = 2);
 
 
-<<<<<<< HEAD
-//# sourceMappingURL=edn.js.map?rel=1602979372850
-=======
-//# sourceMappingURL=edn.js.map?rel=1608004497699
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=edn.js.map?rel=1608009504844

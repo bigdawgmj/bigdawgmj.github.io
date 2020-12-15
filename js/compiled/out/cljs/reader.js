@@ -434,8 +434,4 @@ return null;
 return old_parser;
 });
 
-<<<<<<< HEAD
-//# sourceMappingURL=reader.js.map?rel=1602979372926
-=======
-//# sourceMappingURL=reader.js.map?rel=1608004497776
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=reader.js.map?rel=1608009504922

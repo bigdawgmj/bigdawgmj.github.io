@@ -8,8 +8,4 @@ devtools.context.get_console = (function devtools$context$get_console(){
 return devtools.context.get_root.call(null).console;
 });
 
-<<<<<<< HEAD
-//# sourceMappingURL=context.js.map?rel=1602979377979
-=======
-//# sourceMappingURL=context.js.map?rel=1608004503833
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=context.js.map?rel=1608009510760

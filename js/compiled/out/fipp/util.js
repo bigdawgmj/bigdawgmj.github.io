@@ -92,8 +92,4 @@ return false;
 }
 });
 
-<<<<<<< HEAD
-//# sourceMappingURL=util.js.map?rel=1602993598664
-=======
-//# sourceMappingURL=util.js.map?rel=1608004501343
->>>>>>> 8f3c68a (Initial Commit)
+//# sourceMappingURL=util.js.map?rel=1608009508610

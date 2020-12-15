@@ -42,10 +42,6 @@
     ;     (:tweet @app-state)]]]])
 
 (defn about-page []
-<<<<<<< HEAD
-  [:div
-   [:p "About page"]])
-=======
   [:div.container
    [:h1.about-title "Experience"]
    [:h2.employer "Pacific Northwest National Laboratory"]
@@ -65,7 +61,6 @@
     [:li "Analyze Water System Models using a pressure dependent solver for resilency studies, writing reports to summarize results"]
     [:li "Model Hurricane Events using Two-Dimensional Floodplain Modeling Software"]]
    [:p.experience "About page"]])
->>>>>>> 8f3c68a (Initial Commit)
 
 (defn contact-page []
   [:div
