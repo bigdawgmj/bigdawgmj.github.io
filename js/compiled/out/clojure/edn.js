@@ -21,8 +21,8 @@ goog.require('cljs.reader');
  *            be called with the tag and the value.
  */
 clojure.edn.read = (function clojure$edn$read(var_args){
-var G__21731 = arguments.length;
-switch (G__21731) {
+var G__22134 = arguments.length;
+switch (G__22134) {
 case 1:
 return clojure.edn.read.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -65,8 +65,8 @@ return cljs.reader.read.call(null,reader,eof_error_QMARK_,eof,opts);
  * opts is a map as per cljs.tools.reader.edn/read
  */
 clojure.edn.read_string = (function clojure$edn$read_string(var_args){
-var G__21734 = arguments.length;
-switch (G__21734) {
+var G__22137 = arguments.length;
+switch (G__22137) {
 case 1:
 return clojure.edn.read_string.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -92,4 +92,4 @@ return cljs.reader.read_string.call(null,opts,s);
 (clojure.edn.read_string.cljs$lang$maxFixedArity = 2);
 
 
-//# sourceMappingURL=edn.js.map?rel=1608009504941
+//# sourceMappingURL=edn.js.map?rel=1608011907432
