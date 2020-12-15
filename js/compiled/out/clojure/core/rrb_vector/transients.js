@@ -28,6 +28,7 @@ return ret;
 clojure.core.rrb_vector.transients.push_tail_BANG_ = (function clojure$core$rrb_vector$transients$push_tail_BANG_(shift,cnt,root_edit,current_node,tail_node){
 var ret = clojure.core.rrb_vector.transients.ensure_editable.call(null,root_edit,current_node);
 if(clojure.core.rrb_vector.nodes.regular_QMARK_.call(null,ret)){
+<<<<<<< HEAD
 var n_41121 = ret;
 var shift_41122__$1 = shift;
 while(true){
@@ -47,6 +48,27 @@ var G__41127 = editable_child_41126;
 var G__41128 = (shift_41122__$1 - (5));
 n_41121 = G__41127;
 shift_41122__$1 = G__41128;
+=======
+var n_23125 = ret;
+var shift_23126__$1 = shift;
+while(true){
+var arr_23127 = n_23125.arr;
+var subidx_23128 = (((cnt - (1)) >> shift_23126__$1) & (31));
+if((shift_23126__$1 === (5))){
+(arr_23127[subidx_23128] = tail_node);
+} else {
+var child_23129 = (arr_23127[subidx_23128]);
+if((child_23129 == null)){
+(arr_23127[subidx_23128] = clojure.core.rrb_vector.trees.new_path.call(null,tail_node.arr,root_edit,(shift_23126__$1 - (5)),tail_node));
+} else {
+var editable_child_23130 = clojure.core.rrb_vector.transients.ensure_editable.call(null,root_edit,child_23129);
+(arr_23127[subidx_23128] = editable_child_23130);
+
+var G__23131 = editable_child_23130;
+var G__23132 = (shift_23126__$1 - (5));
+n_23125 = G__23131;
+shift_23126__$1 = G__23132;
+>>>>>>> 8f3c68a (Initial Commit)
 continue;
 }
 }
@@ -116,8 +138,13 @@ while(true){
 if((((((rngs[(subidx__$1 + (1))]) | (0)) === (0))) || ((subidx__$1 === (31))))){
 return subidx__$1;
 } else {
+<<<<<<< HEAD
 var G__41129 = (subidx__$1 + (1));
 subidx__$1 = G__41129;
+=======
+var G__23133 = (subidx__$1 + (1));
+subidx__$1 = G__23133;
+>>>>>>> 8f3c68a (Initial Commit)
 continue;
 }
 break;
@@ -180,6 +207,7 @@ return ret;
 clojure.core.rrb_vector.transients.do_assoc_BANG_ = (function clojure$core$rrb_vector$transients$do_assoc_BANG_(shift,root_edit,current_node,i,val){
 var ret = clojure.core.rrb_vector.transients.ensure_editable.call(null,root_edit,current_node);
 if(clojure.core.rrb_vector.nodes.regular_QMARK_.call(null,ret)){
+<<<<<<< HEAD
 var shift_41130__$1 = shift;
 var node_41131 = ret;
 while(true){
@@ -196,11 +224,30 @@ var G__41136 = (shift_41130__$1 - (5));
 var G__41137 = child_41135;
 shift_41130__$1 = G__41136;
 node_41131 = G__41137;
+=======
+var shift_23134__$1 = shift;
+var node_23135 = ret;
+while(true){
+if((shift_23134__$1 === (0))){
+var arr_23136 = node_23135.arr;
+(arr_23136[(i & (31))] = val);
+} else {
+var arr_23137 = node_23135.arr;
+var subidx_23138 = ((i >> shift_23134__$1) & (31));
+var child_23139 = clojure.core.rrb_vector.transients.ensure_editable.call(null,root_edit,(arr_23137[subidx_23138]));
+(arr_23137[subidx_23138] = child_23139);
+
+var G__23140 = (shift_23134__$1 - (5));
+var G__23141 = child_23139;
+shift_23134__$1 = G__23140;
+node_23135 = G__23141;
+>>>>>>> 8f3c68a (Initial Commit)
 continue;
 }
 break;
 }
 } else {
+<<<<<<< HEAD
 var arr_41138 = ret.arr;
 var rngs_41139 = clojure.core.rrb_vector.nodes.node_ranges.call(null,ret);
 var subidx_41140 = ((i >> shift) & (31));
@@ -211,16 +258,37 @@ return subidx_41141__$1;
 } else {
 var G__41143 = (subidx_41141__$1 + (1));
 subidx_41141__$1 = G__41143;
+=======
+var arr_23142 = ret.arr;
+var rngs_23143 = clojure.core.rrb_vector.nodes.node_ranges.call(null,ret);
+var subidx_23144 = ((i >> shift) & (31));
+var subidx_23145__$1 = (function (){var subidx_23145__$1 = subidx_23144;
+while(true){
+if((i < ((rngs_23143[subidx_23145__$1]) | (0)))){
+return subidx_23145__$1;
+} else {
+var G__23147 = (subidx_23145__$1 + (1));
+subidx_23145__$1 = G__23147;
+>>>>>>> 8f3c68a (Initial Commit)
 continue;
 }
 break;
 }
 })();
+<<<<<<< HEAD
 var i_41142__$1 = (((subidx_41141__$1 === (0)))?i:(i - (rngs_41139[(subidx_41141__$1 - (1))])));
 (arr_41138[subidx_41141__$1] = clojure.core.rrb_vector.transients.do_assoc_BANG_.call(null,(shift - (5)),root_edit,(arr_41138[subidx_41141__$1]),i_41142__$1,val));
+=======
+var i_23146__$1 = (((subidx_23145__$1 === (0)))?i:(i - (rngs_23143[(subidx_23145__$1 - (1))])));
+(arr_23142[subidx_23145__$1] = clojure.core.rrb_vector.transients.do_assoc_BANG_.call(null,(shift - (5)),root_edit,(arr_23142[subidx_23145__$1]),i_23146__$1,val));
+>>>>>>> 8f3c68a (Initial Commit)
 }
 
 return ret;
 });
 
+<<<<<<< HEAD
 //# sourceMappingURL=transients.js.map?rel=1602993598355
+=======
+//# sourceMappingURL=transients.js.map?rel=1608004498707
+>>>>>>> 8f3c68a (Initial Commit)

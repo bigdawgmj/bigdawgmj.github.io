@@ -8,8 +8,13 @@ goog.require('clojure.core.rrb_vector.interop');
  * Concatenates the given vectors in logarithmic time.
  */
 clojure.core.rrb_vector.catvec = (function clojure$core$rrb_vector$catvec(var_args){
+<<<<<<< HEAD
 var G__41358 = arguments.length;
 switch (G__41358) {
+=======
+var G__23362 = arguments.length;
+switch (G__23362) {
+>>>>>>> 8f3c68a (Initial Commit)
 case 0:
 return clojure.core.rrb_vector.catvec.cljs$core$IFn$_invoke$arity$0();
 
@@ -32,6 +37,7 @@ return clojure.core.rrb_vector.catvec.cljs$core$IFn$_invoke$arity$4((arguments[(
 break;
 default:
 var args_arr__4757__auto__ = [];
+<<<<<<< HEAD
 var len__4736__auto___41360 = arguments.length;
 var i__4737__auto___41361 = (0);
 while(true){
@@ -40,6 +46,16 @@ args_arr__4757__auto__.push((arguments[i__4737__auto___41361]));
 
 var G__41362 = (i__4737__auto___41361 + (1));
 i__4737__auto___41361 = G__41362;
+=======
+var len__4736__auto___23364 = arguments.length;
+var i__4737__auto___23365 = (0);
+while(true){
+if((i__4737__auto___23365 < len__4736__auto___23364)){
+args_arr__4757__auto__.push((arguments[i__4737__auto___23365]));
+
+var G__23366 = (i__4737__auto___23365 + (1));
+i__4737__auto___23365 = G__23366;
+>>>>>>> 8f3c68a (Initial Commit)
 continue;
 } else {
 }
@@ -77,6 +93,7 @@ return clojure.core.rrb_vector.protocols._splicev.call(null,clojure.core.rrb_vec
 }));
 
 /** @this {Function} */
+<<<<<<< HEAD
 (clojure.core.rrb_vector.catvec.cljs$lang$applyTo = (function (seq41353){
 var G__41354 = cljs.core.first.call(null,seq41353);
 var seq41353__$1 = cljs.core.next.call(null,seq41353);
@@ -88,6 +105,19 @@ var G__41357 = cljs.core.first.call(null,seq41353__$3);
 var seq41353__$4 = cljs.core.next.call(null,seq41353__$3);
 var self__4723__auto__ = this;
 return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__41354,G__41355,G__41356,G__41357,seq41353__$4);
+=======
+(clojure.core.rrb_vector.catvec.cljs$lang$applyTo = (function (seq23357){
+var G__23358 = cljs.core.first.call(null,seq23357);
+var seq23357__$1 = cljs.core.next.call(null,seq23357);
+var G__23359 = cljs.core.first.call(null,seq23357__$1);
+var seq23357__$2 = cljs.core.next.call(null,seq23357__$1);
+var G__23360 = cljs.core.first.call(null,seq23357__$2);
+var seq23357__$3 = cljs.core.next.call(null,seq23357__$2);
+var G__23361 = cljs.core.first.call(null,seq23357__$3);
+var seq23357__$4 = cljs.core.next.call(null,seq23357__$3);
+var self__4723__auto__ = this;
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23358,G__23359,G__23360,G__23361,seq23357__$4);
+>>>>>>> 8f3c68a (Initial Commit)
 }));
 
 (clojure.core.rrb_vector.catvec.cljs$lang$maxFixedArity = (4));
@@ -101,8 +131,13 @@ return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__41354,G__41355
  *   range.
  */
 clojure.core.rrb_vector.subvec = (function clojure$core$rrb_vector$subvec(var_args){
+<<<<<<< HEAD
 var G__41364 = arguments.length;
 switch (G__41364) {
+=======
+var G__23368 = arguments.length;
+switch (G__23368) {
+>>>>>>> 8f3c68a (Initial Commit)
 case 2:
 return clojure.core.rrb_vector.subvec.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -131,8 +166,13 @@ return clojure.core.rrb_vector.protocols._slicev.call(null,v,start,end);
  * Creates a new vector containing the args.
  */
 clojure.core.rrb_vector.vector = (function clojure$core$rrb_vector$vector(var_args){
+<<<<<<< HEAD
 var G__41372 = arguments.length;
 switch (G__41372) {
+=======
+var G__23376 = arguments.length;
+switch (G__23376) {
+>>>>>>> 8f3c68a (Initial Commit)
 case 0:
 return clojure.core.rrb_vector.vector.cljs$core$IFn$_invoke$arity$0();
 
@@ -155,6 +195,7 @@ return clojure.core.rrb_vector.vector.cljs$core$IFn$_invoke$arity$4((arguments[(
 break;
 default:
 var args_arr__4757__auto__ = [];
+<<<<<<< HEAD
 var len__4736__auto___41379 = arguments.length;
 var i__4737__auto___41380 = (0);
 while(true){
@@ -163,6 +204,16 @@ args_arr__4757__auto__.push((arguments[i__4737__auto___41380]));
 
 var G__41381 = (i__4737__auto___41380 + (1));
 i__4737__auto___41380 = G__41381;
+=======
+var len__4736__auto___23383 = arguments.length;
+var i__4737__auto___23384 = (0);
+while(true){
+if((i__4737__auto___23384 < len__4736__auto___23383)){
+args_arr__4757__auto__.push((arguments[i__4737__auto___23384]));
+
+var G__23385 = (i__4737__auto___23384 + (1));
+i__4737__auto___23384 = G__23385;
+>>>>>>> 8f3c68a (Initial Commit)
 continue;
 } else {
 }
@@ -176,6 +227,7 @@ return clojure.core.rrb_vector.vector.cljs$core$IFn$_invoke$arity$variadic((argu
 });
 
 (clojure.core.rrb_vector.vector.cljs$core$IFn$_invoke$arity$0 = (function (){
+<<<<<<< HEAD
 var arr__41373 = [];
 return (new clojure.core.rrb_vector.rrbt.Vector(0,(5),cljs.core.PersistentVector.EMPTY_NODE,arr__41373,null,(0)));
 }));
@@ -218,6 +270,50 @@ var arr__41377 = [null,null,null,null];
 (arr__41377[(3)] = x4);
 
 return (new clojure.core.rrb_vector.rrbt.Vector(4,(5),cljs.core.PersistentVector.EMPTY_NODE,arr__41377,null,null));
+=======
+var arr__23377 = [];
+return (new clojure.core.rrb_vector.rrbt.Vector(0,(5),cljs.core.PersistentVector.EMPTY_NODE,arr__23377,null,(0)));
+}));
+
+(clojure.core.rrb_vector.vector.cljs$core$IFn$_invoke$arity$1 = (function (x1){
+var arr__23378 = [null];
+(arr__23378[(0)] = x1);
+
+return (new clojure.core.rrb_vector.rrbt.Vector(1,(5),cljs.core.PersistentVector.EMPTY_NODE,arr__23378,null,null));
+}));
+
+(clojure.core.rrb_vector.vector.cljs$core$IFn$_invoke$arity$2 = (function (x1,x2){
+var arr__23379 = [null,null];
+(arr__23379[(0)] = x1);
+
+(arr__23379[(1)] = x2);
+
+return (new clojure.core.rrb_vector.rrbt.Vector(2,(5),cljs.core.PersistentVector.EMPTY_NODE,arr__23379,null,null));
+}));
+
+(clojure.core.rrb_vector.vector.cljs$core$IFn$_invoke$arity$3 = (function (x1,x2,x3){
+var arr__23380 = [null,null,null];
+(arr__23380[(0)] = x1);
+
+(arr__23380[(1)] = x2);
+
+(arr__23380[(2)] = x3);
+
+return (new clojure.core.rrb_vector.rrbt.Vector(3,(5),cljs.core.PersistentVector.EMPTY_NODE,arr__23380,null,null));
+}));
+
+(clojure.core.rrb_vector.vector.cljs$core$IFn$_invoke$arity$4 = (function (x1,x2,x3,x4){
+var arr__23381 = [null,null,null,null];
+(arr__23381[(0)] = x1);
+
+(arr__23381[(1)] = x2);
+
+(arr__23381[(2)] = x3);
+
+(arr__23381[(3)] = x4);
+
+return (new clojure.core.rrb_vector.rrbt.Vector(4,(5),cljs.core.PersistentVector.EMPTY_NODE,arr__23381,null,null));
+>>>>>>> 8f3c68a (Initial Commit)
 }));
 
 (clojure.core.rrb_vector.vector.cljs$core$IFn$_invoke$arity$variadic = (function (x1,x2,x3,x4,xn){
@@ -225,6 +321,7 @@ return cljs.core.into.call(null,clojure.core.rrb_vector.vector.call(null,x1,x2,x
 }));
 
 /** @this {Function} */
+<<<<<<< HEAD
 (clojure.core.rrb_vector.vector.cljs$lang$applyTo = (function (seq41367){
 var G__41368 = cljs.core.first.call(null,seq41367);
 var seq41367__$1 = cljs.core.next.call(null,seq41367);
@@ -236,6 +333,19 @@ var G__41371 = cljs.core.first.call(null,seq41367__$3);
 var seq41367__$4 = cljs.core.next.call(null,seq41367__$3);
 var self__4723__auto__ = this;
 return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__41368,G__41369,G__41370,G__41371,seq41367__$4);
+=======
+(clojure.core.rrb_vector.vector.cljs$lang$applyTo = (function (seq23371){
+var G__23372 = cljs.core.first.call(null,seq23371);
+var seq23371__$1 = cljs.core.next.call(null,seq23371);
+var G__23373 = cljs.core.first.call(null,seq23371__$1);
+var seq23371__$2 = cljs.core.next.call(null,seq23371__$1);
+var G__23374 = cljs.core.first.call(null,seq23371__$2);
+var seq23371__$3 = cljs.core.next.call(null,seq23371__$2);
+var G__23375 = cljs.core.first.call(null,seq23371__$3);
+var seq23371__$4 = cljs.core.next.call(null,seq23371__$3);
+var self__4723__auto__ = this;
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23372,G__23373,G__23374,G__23375,seq23371__$4);
+>>>>>>> 8f3c68a (Initial Commit)
 }));
 
 (clojure.core.rrb_vector.vector.cljs$lang$maxFixedArity = (4));
@@ -254,4 +364,8 @@ return cljs.core.apply.call(null,clojure.core.rrb_vector.vector,coll);
 }
 });
 
+<<<<<<< HEAD
 //# sourceMappingURL=rrb_vector.js.map?rel=1602993598607
+=======
+//# sourceMappingURL=rrb_vector.js.map?rel=1608004498970
+>>>>>>> 8f3c68a (Initial Commit)

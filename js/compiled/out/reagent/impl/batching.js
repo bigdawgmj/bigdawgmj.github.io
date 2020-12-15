@@ -46,6 +46,7 @@ var n__4613__auto__ = a.length;
 var i = (0);
 while(true){
 if((i < n__4613__auto__)){
+<<<<<<< HEAD
 var c_25681 = (a[i]);
 if(c_25681.cljsIsDirty === true){
 c_25681.forceUpdate();
@@ -54,6 +55,16 @@ c_25681.forceUpdate();
 
 var G__25682 = (i + (1));
 i = G__25682;
+=======
+var c_26138 = (a[i]);
+if(c_26138.cljsIsDirty === true){
+c_26138.forceUpdate();
+} else {
+}
+
+var G__26139 = (i + (1));
+i = G__26139;
+>>>>>>> 8f3c68a (Initial Commit)
 continue;
 } else {
 return null;
@@ -74,8 +85,13 @@ while(true){
 if((i < n__4613__auto__)){
 (fs[i]).call(null);
 
+<<<<<<< HEAD
 var G__25683 = (i + (1));
 i = G__25683;
+=======
+var G__26140 = (i + (1));
+i = G__26140;
+>>>>>>> 8f3c68a (Initial Commit)
 continue;
 } else {
 return null;
@@ -265,4 +281,8 @@ return null;
 }
 });
 
+<<<<<<< HEAD
 //# sourceMappingURL=batching.js.map?rel=1602979376059
+=======
+//# sourceMappingURL=batching.js.map?rel=1608004501577
+>>>>>>> 8f3c68a (Initial Commit)

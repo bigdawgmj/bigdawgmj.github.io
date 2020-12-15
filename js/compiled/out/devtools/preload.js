@@ -8,4 +8,8 @@ devtools.core.install_BANG_.call(null);
 } else {
 }
 
+<<<<<<< HEAD
 //# sourceMappingURL=preload.js.map?rel=1602979380258
+=======
+//# sourceMappingURL=preload.js.map?rel=1608004506287
+>>>>>>> 8f3c68a (Initial Commit)

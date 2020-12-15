@@ -30,4 +30,8 @@ var v1__$1 = this;
 return clojure.core.rrb_vector.protocols._splicev.call(null,clojure.core.rrb_vector.rrbt._as_rrbt.call(null,v1__$1),v2);
 }));
 
+<<<<<<< HEAD
 //# sourceMappingURL=interop.js.map?rel=1602993598573
+=======
+//# sourceMappingURL=interop.js.map?rel=1608004498937
+>>>>>>> 8f3c68a (Initial Commit)

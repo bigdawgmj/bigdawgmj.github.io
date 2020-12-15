@@ -8,8 +8,13 @@ while(true){
 if((cnt < len)){
 (dest[(dest_start + cnt)] = (src[(src_start + cnt)]));
 
+<<<<<<< HEAD
 var G__30493 = (cnt + (1));
 cnt = G__30493;
+=======
+var G__30998 = (cnt + (1));
+cnt = G__30998;
+>>>>>>> 8f3c68a (Initial Commit)
 continue;
 } else {
 return null;
@@ -113,6 +118,7 @@ var n__4613__auto__ = self__.length;
 var x = (0);
 while(true){
 if((x < n__4613__auto__)){
+<<<<<<< HEAD
 var v_30494 = this$.pop();
 if(keep_QMARK_.call(null,v_30494)){
 this$.unshift(v_30494);
@@ -121,6 +127,16 @@ this$.unshift(v_30494);
 
 var G__30495 = (x + (1));
 x = G__30495;
+=======
+var v_30999 = this$.pop();
+if(keep_QMARK_.call(null,v_30999)){
+this$.unshift(v_30999);
+} else {
+}
+
+var G__31000 = (x + (1));
+x = G__31000;
+>>>>>>> 8f3c68a (Initial Commit)
 continue;
 } else {
 return null;
@@ -463,4 +479,8 @@ cljs.core.async.impl.buffers.promise_buffer = (function cljs$core$async$impl$buf
 return (new cljs.core.async.impl.buffers.PromiseBuffer(cljs.core.async.impl.buffers.NO_VAL));
 });
 
+<<<<<<< HEAD
 //# sourceMappingURL=buffers.js.map?rel=1602979379947
+=======
+//# sourceMappingURL=buffers.js.map?rel=1608004505975
+>>>>>>> 8f3c68a (Initial Commit)

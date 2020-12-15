@@ -10,9 +10,15 @@ goog.require('devtools.toolbox');
 goog.require('devtools.context');
 goog.require('devtools.util');
 devtools.core.is_feature_available_QMARK_ = (function devtools$core$is_feature_available_QMARK_(feature){
+<<<<<<< HEAD
 var G__30779 = feature;
 var G__30779__$1 = (((G__30779 instanceof cljs.core.Keyword))?G__30779.fqn:null);
 switch (G__30779__$1) {
+=======
+var G__31284 = feature;
+var G__31284__$1 = (((G__31284 instanceof cljs.core.Keyword))?G__31284.fqn:null);
+switch (G__31284__$1) {
+>>>>>>> 8f3c68a (Initial Commit)
 case "formatters":
 return devtools.formatters.available_QMARK_.call(null);
 
@@ -26,13 +32,22 @@ return devtools.async.available_QMARK_.call(null);
 
 break;
 default:
+<<<<<<< HEAD
 throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__30779__$1)].join('')));
+=======
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__31284__$1)].join('')));
+>>>>>>> 8f3c68a (Initial Commit)
 
 }
 });
 devtools.core.available_QMARK_ = (function devtools$core$available_QMARK_(var_args){
+<<<<<<< HEAD
 var G__30782 = arguments.length;
 switch (G__30782) {
+=======
+var G__31287 = arguments.length;
+switch (G__31287) {
+>>>>>>> 8f3c68a (Initial Commit)
 case 0:
 return devtools.core.available_QMARK_.cljs$core$IFn$_invoke$arity$0();
 
@@ -63,9 +78,15 @@ return cljs.core.every_QMARK_.call(null,devtools.core.is_feature_available_QMARK
 (devtools.core.available_QMARK_.cljs$lang$maxFixedArity = 1);
 
 devtools.core.is_feature_installed_QMARK_ = (function devtools$core$is_feature_installed_QMARK_(feature){
+<<<<<<< HEAD
 var G__30784 = feature;
 var G__30784__$1 = (((G__30784 instanceof cljs.core.Keyword))?G__30784.fqn:null);
 switch (G__30784__$1) {
+=======
+var G__31289 = feature;
+var G__31289__$1 = (((G__31289 instanceof cljs.core.Keyword))?G__31289.fqn:null);
+switch (G__31289__$1) {
+>>>>>>> 8f3c68a (Initial Commit)
 case "formatters":
 return devtools.formatters.installed_QMARK_.call(null);
 
@@ -79,13 +100,22 @@ return devtools.async.installed_QMARK_.call(null);
 
 break;
 default:
+<<<<<<< HEAD
 throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__30784__$1)].join('')));
+=======
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__31289__$1)].join('')));
+>>>>>>> 8f3c68a (Initial Commit)
 
 }
 });
 devtools.core.installed_QMARK_ = (function devtools$core$installed_QMARK_(var_args){
+<<<<<<< HEAD
 var G__30787 = arguments.length;
 switch (G__30787) {
+=======
+var G__31292 = arguments.length;
+switch (G__31292) {
+>>>>>>> 8f3c68a (Initial Commit)
 case 0:
 return devtools.core.installed_QMARK_.cljs$core$IFn$_invoke$arity$0();
 
@@ -116,8 +146,13 @@ return cljs.core.every_QMARK_.call(null,devtools.core.is_feature_installed_QMARK
 (devtools.core.installed_QMARK_.cljs$lang$maxFixedArity = 1);
 
 devtools.core.install_BANG_ = (function devtools$core$install_BANG_(var_args){
+<<<<<<< HEAD
 var G__30790 = arguments.length;
 switch (G__30790) {
+=======
+var G__31295 = arguments.length;
+switch (G__31295) {
+>>>>>>> 8f3c68a (Initial Commit)
 case 0:
 return devtools.core.install_BANG_.cljs$core$IFn$_invoke$arity$0();
 
@@ -172,4 +207,8 @@ devtools.core.set_pref_BANG_ = (function devtools$core$set_pref_BANG_(pref,val){
 return devtools.prefs.set_pref_BANG_.call(null,pref,val);
 });
 
+<<<<<<< HEAD
 //# sourceMappingURL=core.js.map?rel=1602979380250
+=======
+//# sourceMappingURL=core.js.map?rel=1608004506280
+>>>>>>> 8f3c68a (Initial Commit)

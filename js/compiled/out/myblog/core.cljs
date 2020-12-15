@@ -42,8 +42,30 @@
     ;     (:tweet @app-state)]]]])
 
 (defn about-page []
+<<<<<<< HEAD
   [:div
    [:p "About page"]])
+=======
+  [:div.container
+   [:h1.about-title "Experience"]
+   [:h2.employer "Pacific Northwest National Laboratory"]
+   [:h3.about-header "Technology"]
+   [:ul.experience
+    [:li "Clojure, C#, Python, Java, C++, CUDA, Scala, Spark, Databricks"]
+    [:li "ArcMap, QGIS"]
+    [:li "Docker, Kubernetes"]
+    [:li "Azure Functions, Logic Apps, Batch, AD, Elastic Container Registry, VM Setup"]
+    [:li "Hurricane Event Two-Dimensional Floodplain Modeling"]]
+   [:h3.about-header "Experience"]
+   [:ul.experience
+    [:li "Architect and develop applications using Microsoft Azure Cloud"]
+    [:li "Develop geospatial data pipelines including creating vector/raster tiles"]
+    [:li "Setup and configure Geoserver for OGC Standard Services"]
+    [:li "Create a React.js client utilizing material-ui, mapbox-gl, kepler.gl and deck.gl"]
+    [:li "Analyze Water System Models using a pressure dependent solver for resilency studies, writing reports to summarize results"]
+    [:li "Model Hurricane Events using Two-Dimensional Floodplain Modeling Software"]]
+   [:p.experience "About page"]])
+>>>>>>> 8f3c68a (Initial Commit)
 
 (defn contact-page []
   [:div

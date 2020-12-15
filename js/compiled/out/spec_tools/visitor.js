@@ -75,8 +75,13 @@ return (new cljs.core.MultiFn(cljs.core.symbol.call(null,"spec-tools.visitor","v
  *   * otherwise: the spec itself
  */
 spec_tools.visitor.visit = (function spec_tools$visitor$visit(var_args){
+<<<<<<< HEAD
 var G__26716 = arguments.length;
 switch (G__26716) {
+=======
+var G__27173 = arguments.length;
+switch (G__27173) {
+>>>>>>> 8f3c68a (Initial Commit)
 case 2:
 return spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -95,11 +100,19 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 return spec_tools.visitor.visit.call(null,spec,accept,null);
 }));
 
+<<<<<<< HEAD
 (spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3 = (function (spec,accept,p__26717){
 var map__26718 = p__26717;
 var map__26718__$1 = (((((!((map__26718 == null))))?(((((map__26718.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__26718.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__26718):map__26718);
 var options = map__26718__$1;
 var visited = cljs.core.get.call(null,map__26718__$1,new cljs.core.Keyword("spec-tools.visitor","visited","spec-tools.visitor/visited",820668632));
+=======
+(spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3 = (function (spec,accept,p__27174){
+var map__27175 = p__27174;
+var map__27175__$1 = (((((!((map__27175 == null))))?(((((map__27175.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__27175.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__27175):map__27175);
+var options = map__27175__$1;
+var visited = cljs.core.get.call(null,map__27175__$1,new cljs.core.Keyword("spec-tools.visitor","visited","spec-tools.visitor/visited",820668632));
+>>>>>>> 8f3c68a (Initial Commit)
 if(cljs.core.not.call(null,cljs.core.get.call(null,visited,spec))){
 var options__$1 = (((spec instanceof cljs.core.Keyword))?cljs.core.update.call(null,options,new cljs.core.Keyword("spec-tools.visitor","visited","spec-tools.visitor/visited",820668632),cljs.core.fnil.call(null,cljs.core.conj,cljs.core.PersistentHashSet.EMPTY),spec):options);
 return spec_tools.visitor.visit_spec.call(null,spec,accept,options__$1);
@@ -115,6 +128,7 @@ return accept.call(null,new cljs.core.Keyword("spec-tools.visitor","set","spec-t
 }));
 cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","keys","clojure.spec.alpha/keys",-90227326,null),(function (spec,accept,options){
 var keys = spec_tools.impl.extract_keys.call(null,spec_tools.impl.extract_form.call(null,spec));
+<<<<<<< HEAD
 return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","keys","clojure.spec.alpha/keys",-90227326,null),spec,cljs.core.mapv.call(null,(function (p1__26721_SHARP_){
 return spec_tools.visitor.visit.call(null,p1__26721_SHARP_,accept,options);
 }),keys),options);
@@ -152,6 +166,45 @@ var _ = first__26735;
 var inner_specs = seq__26734__$1;
 return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","merge","clojure.spec.alpha/merge",472136035,null),spec,cljs.core.mapv.call(null,(function (p1__26732_SHARP_){
 return spec_tools.visitor.visit.call(null,p1__26732_SHARP_,accept,options);
+=======
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","keys","clojure.spec.alpha/keys",-90227326,null),spec,cljs.core.mapv.call(null,(function (p1__27178_SHARP_){
+return spec_tools.visitor.visit.call(null,p1__27178_SHARP_,accept,options);
+}),keys),options);
+}));
+cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","or","clojure.spec.alpha/or",434904251,null),(function (spec,accept,options){
+var vec__27180 = spec_tools.impl.extract_form.call(null,spec);
+var seq__27181 = cljs.core.seq.call(null,vec__27180);
+var first__27182 = cljs.core.first.call(null,seq__27181);
+var seq__27181__$1 = cljs.core.next.call(null,seq__27181);
+var _ = first__27182;
+var map__27183 = seq__27181__$1;
+var map__27183__$1 = (((((!((map__27183 == null))))?(((((map__27183.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__27183.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__27183):map__27183);
+var inner_spec_map = map__27183__$1;
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","or","clojure.spec.alpha/or",434904251,null),spec,cljs.core.mapv.call(null,(function (p1__27179_SHARP_){
+return spec_tools.visitor.visit.call(null,p1__27179_SHARP_,accept,options);
+}),cljs.core.vals.call(null,inner_spec_map)),options);
+}));
+cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","and","clojure.spec.alpha/and",-843882543,null),(function (spec,accept,options){
+var vec__27186 = spec_tools.impl.extract_form.call(null,spec);
+var seq__27187 = cljs.core.seq.call(null,vec__27186);
+var first__27188 = cljs.core.first.call(null,seq__27187);
+var seq__27187__$1 = cljs.core.next.call(null,seq__27187);
+var _ = first__27188;
+var inner_specs = seq__27187__$1;
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","and","clojure.spec.alpha/and",-843882543,null),spec,cljs.core.mapv.call(null,(function (p1__27185_SHARP_){
+return spec_tools.visitor.visit.call(null,p1__27185_SHARP_,accept,options);
+}),inner_specs),options);
+}));
+spec_tools.visitor.visit_merge = (function spec_tools$visitor$visit_merge(spec,accept,options){
+var vec__27190 = spec_tools.impl.extract_form.call(null,spec);
+var seq__27191 = cljs.core.seq.call(null,vec__27190);
+var first__27192 = cljs.core.first.call(null,seq__27191);
+var seq__27191__$1 = cljs.core.next.call(null,seq__27191);
+var _ = first__27192;
+var inner_specs = seq__27191__$1;
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","merge","clojure.spec.alpha/merge",472136035,null),spec,cljs.core.mapv.call(null,(function (p1__27189_SHARP_){
+return spec_tools.visitor.visit.call(null,p1__27189_SHARP_,accept,options);
+>>>>>>> 8f3c68a (Initial Commit)
 }),inner_specs),options);
 });
 cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","merge","clojure.spec.alpha/merge",472136035,null),(function (spec,accept,options){
@@ -161,6 +214,7 @@ cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symb
 return spec_tools.visitor.visit_merge.call(null,spec,accept,options);
 }));
 cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","every","clojure.spec.alpha/every",-1327408778,null),(function (spec,accept,options){
+<<<<<<< HEAD
 var vec__26736 = spec_tools.impl.extract_form.call(null,spec);
 var _ = cljs.core.nth.call(null,vec__26736,(0),null);
 var inner_spec = cljs.core.nth.call(null,vec__26736,(1),null);
@@ -173,17 +227,40 @@ var inner_spec1 = cljs.core.nth.call(null,vec__26740,(1),null);
 var inner_spec2 = cljs.core.nth.call(null,vec__26740,(2),null);
 return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","every-kv","clojure.spec.alpha/every-kv",814515928,null),spec,cljs.core.mapv.call(null,(function (p1__26739_SHARP_){
 return spec_tools.visitor.visit.call(null,p1__26739_SHARP_,accept,options);
+=======
+var vec__27193 = spec_tools.impl.extract_form.call(null,spec);
+var _ = cljs.core.nth.call(null,vec__27193,(0),null);
+var inner_spec = cljs.core.nth.call(null,vec__27193,(1),null);
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","every","clojure.spec.alpha/every",-1327408778,null),spec,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [spec_tools.visitor.visit.call(null,inner_spec,accept,options)], null),options);
+}));
+cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","every-kv","clojure.spec.alpha/every-kv",814515928,null),(function (spec,accept,options){
+var vec__27197 = spec_tools.impl.extract_form.call(null,spec);
+var _ = cljs.core.nth.call(null,vec__27197,(0),null);
+var inner_spec1 = cljs.core.nth.call(null,vec__27197,(1),null);
+var inner_spec2 = cljs.core.nth.call(null,vec__27197,(2),null);
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","every-kv","clojure.spec.alpha/every-kv",814515928,null),spec,cljs.core.mapv.call(null,(function (p1__27196_SHARP_){
+return spec_tools.visitor.visit.call(null,p1__27196_SHARP_,accept,options);
+>>>>>>> 8f3c68a (Initial Commit)
 }),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [inner_spec1,inner_spec2], null)),options);
 }));
 cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","coll-of","clojure.spec.alpha/coll-of",-465249451,null),(function (spec,accept,options){
 var form = spec_tools.impl.extract_form.call(null,spec);
 var pred = cljs.core.second.call(null,form);
+<<<<<<< HEAD
 var map__26743 = spec_tools.parse.parse_spec.call(null,form);
 var map__26743__$1 = (((((!((map__26743 == null))))?(((((map__26743.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__26743.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__26743):map__26743);
 var type = cljs.core.get.call(null,map__26743__$1,new cljs.core.Keyword(null,"type","type",1174270348));
 var dispatch = (function (){var G__26745 = type;
 var G__26745__$1 = (((G__26745 instanceof cljs.core.Keyword))?G__26745.fqn:null);
 switch (G__26745__$1) {
+=======
+var map__27200 = spec_tools.parse.parse_spec.call(null,form);
+var map__27200__$1 = (((((!((map__27200 == null))))?(((((map__27200.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__27200.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__27200):map__27200);
+var type = cljs.core.get.call(null,map__27200__$1,new cljs.core.Keyword(null,"type","type",1174270348));
+var dispatch = (function (){var G__27202 = type;
+var G__27202__$1 = (((G__27202 instanceof cljs.core.Keyword))?G__27202.fqn:null);
+switch (G__27202__$1) {
+>>>>>>> 8f3c68a (Initial Commit)
 case "map-of":
 return new cljs.core.Keyword("spec-tools.visitor","map-of","spec-tools.visitor/map-of",-972613908);
 
@@ -197,13 +274,18 @@ return new cljs.core.Keyword("spec-tools.visitor","vector-of","spec-tools.visito
 
 break;
 default:
+<<<<<<< HEAD
 throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__26745__$1)].join('')));
+=======
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__27202__$1)].join('')));
+>>>>>>> 8f3c68a (Initial Commit)
 
 }
 })();
 return accept.call(null,dispatch,spec,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [spec_tools.visitor.visit.call(null,pred,accept,options)], null),options);
 }));
 cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","map-of","clojure.spec.alpha/map-of",2125010727,null),(function (spec,accept,options){
+<<<<<<< HEAD
 var vec__26748 = spec_tools.impl.extract_form.call(null,spec);
 var _ = cljs.core.nth.call(null,vec__26748,(0),null);
 var k = cljs.core.nth.call(null,vec__26748,(1),null);
@@ -271,10 +353,80 @@ var _ = first__26778;
 var inner_specs = seq__26777__$1;
 return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","tuple","clojure.spec.alpha/tuple",800350846,null),spec,cljs.core.mapv.call(null,(function (p1__26775_SHARP_){
 return spec_tools.visitor.visit.call(null,p1__26775_SHARP_,accept,options);
+=======
+var vec__27205 = spec_tools.impl.extract_form.call(null,spec);
+var _ = cljs.core.nth.call(null,vec__27205,(0),null);
+var k = cljs.core.nth.call(null,vec__27205,(1),null);
+var v = cljs.core.nth.call(null,vec__27205,(2),null);
+return accept.call(null,new cljs.core.Keyword("spec-tools.visitor","map-of","spec-tools.visitor/map-of",-972613908),spec,cljs.core.mapv.call(null,(function (p1__27204_SHARP_){
+return spec_tools.visitor.visit.call(null,p1__27204_SHARP_,accept,options);
+}),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,v], null)),options);
+}));
+cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","*","clojure.spec.alpha/*",-21649262,null),(function (spec,accept,options){
+var vec__27208 = spec_tools.impl.extract_form.call(null,spec);
+var _ = cljs.core.nth.call(null,vec__27208,(0),null);
+var inner_spec = cljs.core.nth.call(null,vec__27208,(1),null);
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","*","clojure.spec.alpha/*",-21649262,null),spec,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [spec_tools.visitor.visit.call(null,inner_spec,accept,options)], null),options);
+}));
+cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","+","clojure.spec.alpha/+",96423191,null),(function (spec,accept,options){
+var vec__27211 = spec_tools.impl.extract_form.call(null,spec);
+var _ = cljs.core.nth.call(null,vec__27211,(0),null);
+var inner_spec = cljs.core.nth.call(null,vec__27211,(1),null);
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","+","clojure.spec.alpha/+",96423191,null),spec,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [spec_tools.visitor.visit.call(null,inner_spec,accept,options)], null),options);
+}));
+cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","?","clojure.spec.alpha/?",-1775438615,null),(function (spec,accept,options){
+var vec__27214 = spec_tools.impl.extract_form.call(null,spec);
+var _ = cljs.core.nth.call(null,vec__27214,(0),null);
+var inner_spec = cljs.core.nth.call(null,vec__27214,(1),null);
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","?","clojure.spec.alpha/?",-1775438615,null),spec,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [spec_tools.visitor.visit.call(null,inner_spec,accept,options)], null),options);
+}));
+cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","alt","clojure.spec.alpha/alt",-612316618,null),(function (spec,accept,options){
+var vec__27218 = spec_tools.impl.extract_form.call(null,spec);
+var seq__27219 = cljs.core.seq.call(null,vec__27218);
+var first__27220 = cljs.core.first.call(null,seq__27219);
+var seq__27219__$1 = cljs.core.next.call(null,seq__27219);
+var _ = first__27220;
+var map__27221 = seq__27219__$1;
+var map__27221__$1 = (((((!((map__27221 == null))))?(((((map__27221.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__27221.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__27221):map__27221);
+var inner_spec_map = map__27221__$1;
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","alt","clojure.spec.alpha/alt",-612316618,null),spec,cljs.core.mapv.call(null,(function (p1__27217_SHARP_){
+return spec_tools.visitor.visit.call(null,p1__27217_SHARP_,accept,options);
+}),cljs.core.vals.call(null,inner_spec_map)),options);
+}));
+cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","cat","clojure.spec.alpha/cat",-523389547,null),(function (spec,accept,options){
+var vec__27224 = spec_tools.impl.extract_form.call(null,spec);
+var seq__27225 = cljs.core.seq.call(null,vec__27224);
+var first__27226 = cljs.core.first.call(null,seq__27225);
+var seq__27225__$1 = cljs.core.next.call(null,seq__27225);
+var _ = first__27226;
+var map__27227 = seq__27225__$1;
+var map__27227__$1 = (((((!((map__27227 == null))))?(((((map__27227.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__27227.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__27227):map__27227);
+var inner_spec_map = map__27227__$1;
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","cat","clojure.spec.alpha/cat",-523389547,null),spec,cljs.core.mapv.call(null,(function (p1__27223_SHARP_){
+return spec_tools.visitor.visit.call(null,p1__27223_SHARP_,accept,options);
+}),cljs.core.vals.call(null,inner_spec_map)),options);
+}));
+cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","&","clojure.spec.alpha/&",704695533,null),(function (spec,accept,options){
+var vec__27229 = spec_tools.impl.extract_form.call(null,spec);
+var _ = cljs.core.nth.call(null,vec__27229,(0),null);
+var inner_spec = cljs.core.nth.call(null,vec__27229,(1),null);
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","&","clojure.spec.alpha/&",704695533,null),spec,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [spec_tools.visitor.visit.call(null,inner_spec,accept,options)], null),options);
+}));
+cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","tuple","clojure.spec.alpha/tuple",800350846,null),(function (spec,accept,options){
+var vec__27233 = spec_tools.impl.extract_form.call(null,spec);
+var seq__27234 = cljs.core.seq.call(null,vec__27233);
+var first__27235 = cljs.core.first.call(null,seq__27234);
+var seq__27234__$1 = cljs.core.next.call(null,seq__27234);
+var _ = first__27235;
+var inner_specs = seq__27234__$1;
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","tuple","clojure.spec.alpha/tuple",800350846,null),spec,cljs.core.mapv.call(null,(function (p1__27232_SHARP_){
+return spec_tools.visitor.visit.call(null,p1__27232_SHARP_,accept,options);
+>>>>>>> 8f3c68a (Initial Commit)
 }),inner_specs),options);
 }));
 cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","keys*","clojure.spec.alpha/keys*",-1790941751,null),(function (spec,accept,options){
 var keys = spec_tools.impl.extract_keys.call(null,spec_tools.impl.extract_form.call(null,spec));
+<<<<<<< HEAD
 return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","keys*","clojure.spec.alpha/keys*",-1790941751,null),spec,cljs.core.mapv.call(null,(function (p1__26779_SHARP_){
 return spec_tools.visitor.visit.call(null,p1__26779_SHARP_,accept,options);
 }),keys),options);
@@ -291,6 +443,24 @@ var _ = cljs.core.nth.call(null,vec__26783,(0),null);
 var map__26786 = cljs.core.nth.call(null,vec__26783,(1),null);
 var map__26786__$1 = (((((!((map__26786 == null))))?(((((map__26786.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__26786.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__26786):map__26786);
 var inner_spec = cljs.core.get.call(null,map__26786__$1,new cljs.core.Keyword(null,"spec","spec",347520401));
+=======
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","keys*","clojure.spec.alpha/keys*",-1790941751,null),spec,cljs.core.mapv.call(null,(function (p1__27236_SHARP_){
+return spec_tools.visitor.visit.call(null,p1__27236_SHARP_,accept,options);
+}),keys),options);
+}));
+cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("clojure.spec.alpha","nilable","clojure.spec.alpha/nilable",-1718644550,null),(function (spec,accept,options){
+var vec__27237 = spec_tools.impl.extract_form.call(null,spec);
+var _ = cljs.core.nth.call(null,vec__27237,(0),null);
+var inner_spec = cljs.core.nth.call(null,vec__27237,(1),null);
+return accept.call(null,new cljs.core.Symbol("clojure.spec.alpha","nilable","clojure.spec.alpha/nilable",-1718644550,null),spec,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [spec_tools.visitor.visit.call(null,inner_spec,accept,options)], null),options);
+}));
+cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Symbol("spec-tools.core","spec","spec-tools.core/spec",-497332036,null),(function (spec,accept,options){
+var vec__27240 = spec_tools.impl.extract_form.call(null,spec);
+var _ = cljs.core.nth.call(null,vec__27240,(0),null);
+var map__27243 = cljs.core.nth.call(null,vec__27240,(1),null);
+var map__27243__$1 = (((((!((map__27243 == null))))?(((((map__27243.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__27243.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__27243):map__27243);
+var inner_spec = cljs.core.get.call(null,map__27243__$1,new cljs.core.Keyword(null,"spec","spec",347520401));
+>>>>>>> 8f3c68a (Initial Commit)
 return accept.call(null,new cljs.core.Keyword("spec-tools.visitor","spec","spec-tools.visitor/spec",1770325200),spec,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [spec_tools.visitor.visit.call(null,inner_spec,accept,options)], null),options);
 }));
 cljs.core._add_method.call(null,spec_tools.visitor.visit_spec,new cljs.core.Keyword("spec-tools.visitor","default","spec-tools.visitor/default",49677361),(function (spec,accept,options){
@@ -313,4 +483,8 @@ return cljs.core.deref.call(null,specs);
 });
 });
 
+<<<<<<< HEAD
 //# sourceMappingURL=visitor.js.map?rel=1602979376668
+=======
+//# sourceMappingURL=visitor.js.map?rel=1608004502328
+>>>>>>> 8f3c68a (Initial Commit)

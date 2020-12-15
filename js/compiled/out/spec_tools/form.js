@@ -156,4 +156,8 @@ cljs.core._add_method.call(null,spec_tools.form.resolve_form,cljs.core.sequentia
 return new cljs.core.Symbol("cljs.core","sequential?","cljs.core/sequential?",1777854658,null);
 }));
 
+<<<<<<< HEAD
 //# sourceMappingURL=form.js.map?rel=1602979375719
+=======
+//# sourceMappingURL=form.js.map?rel=1608004501011
+>>>>>>> 8f3c68a (Initial Commit)

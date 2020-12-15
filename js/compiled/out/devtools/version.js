@@ -6,4 +6,8 @@ devtools.version.get_current_version = (function devtools$version$get_current_ve
 return devtools.version.current_version;
 });
 
+<<<<<<< HEAD
 //# sourceMappingURL=version.js.map?rel=1602979378486
+=======
+//# sourceMappingURL=version.js.map?rel=1608004504379
+>>>>>>> 8f3c68a (Initial Commit)

@@ -19,8 +19,13 @@ return cljs.core.vec.call(null,vs);
  */
 reitit.frontend.query_params = (function reitit$frontend$query_params(uri){
 var q = uri.getQueryData();
+<<<<<<< HEAD
 return cljs.core.into.call(null,cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.call(null,cljs.core.juxt.call(null,cljs.core.keyword,(function (p1__27503_SHARP_){
 return reitit.frontend.query_param.call(null,q,p1__27503_SHARP_);
+=======
+return cljs.core.into.call(null,cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.call(null,cljs.core.juxt.call(null,cljs.core.keyword,(function (p1__27960_SHARP_){
+return reitit.frontend.query_param.call(null,q,p1__27960_SHARP_);
+>>>>>>> 8f3c68a (Initial Commit)
 })),q.getKeys()));
 });
 /**
@@ -52,8 +57,13 @@ return null;
  *   or `nil` (no match).
  */
 reitit.frontend.match_by_name = (function reitit$frontend$match_by_name(var_args){
+<<<<<<< HEAD
 var G__27505 = arguments.length;
 switch (G__27505) {
+=======
+var G__27962 = arguments.length;
+switch (G__27962) {
+>>>>>>> 8f3c68a (Initial Commit)
 case 2:
 return reitit.frontend.match_by_name.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -83,8 +93,13 @@ return reitit.core.match_by_name.call(null,router,name,path_params);
  *   Enables request coercion. See [[reitit.core/router]] for details on options.
  */
 reitit.frontend.router = (function reitit$frontend$router(var_args){
+<<<<<<< HEAD
 var G__27508 = arguments.length;
 switch (G__27508) {
+=======
+var G__27965 = arguments.length;
+switch (G__27965) {
+>>>>>>> 8f3c68a (Initial Commit)
 case 1:
 return reitit.frontend.router.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -113,8 +128,13 @@ return reitit.core.router.call(null,raw_routes,cljs.core.merge.call(null,new clj
  * Logs problems using console.warn
  */
 reitit.frontend.match_by_name_BANG_ = (function reitit$frontend$match_by_name_BANG_(var_args){
+<<<<<<< HEAD
 var G__27512 = arguments.length;
 switch (G__27512) {
+=======
+var G__27969 = arguments.length;
+switch (G__27969) {
+>>>>>>> 8f3c68a (Initial Commit)
 case 2:
 return reitit.frontend.match_by_name_BANG_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -138,8 +158,13 @@ var temp__5718__auto__ = reitit.frontend.match_by_name.call(null,router,name,pat
 if(cljs.core.truth_(temp__5718__auto__)){
 var match = temp__5718__auto__;
 if(reitit.core.partial_match_QMARK_.call(null,match)){
+<<<<<<< HEAD
 if(cljs.core.every_QMARK_.call(null,(function (p1__27510_SHARP_){
 return cljs.core.contains_QMARK_.call(null,path_params,p1__27510_SHARP_);
+=======
+if(cljs.core.every_QMARK_.call(null,(function (p1__27967_SHARP_){
+return cljs.core.contains_QMARK_.call(null,path_params,p1__27967_SHARP_);
+>>>>>>> 8f3c68a (Initial Commit)
 }),new cljs.core.Keyword(null,"required","required",1807647006).cljs$core$IFn$_invoke$arity$1(match))){
 return match;
 } else {
@@ -162,4 +187,8 @@ return null;
 (reitit.frontend.match_by_name_BANG_.cljs$lang$maxFixedArity = 3);
 
 
+<<<<<<< HEAD
 //# sourceMappingURL=frontend.js.map?rel=1602979377565
+=======
+//# sourceMappingURL=frontend.js.map?rel=1608004503341
+>>>>>>> 8f3c68a (Initial Commit)
