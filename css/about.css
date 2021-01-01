@@ -18,3 +18,10 @@
 	margin: 0 20px;
 	padding: 0 20px;
 }
+
+.timeline {
+	font-style: italic;
+	font-size: 13px;
+	padding: 0px 20px;
+	margin: 0;
+}

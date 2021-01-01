@@ -45,11 +45,12 @@
   [:div.container
    [:h1.about-title "Experience"]
    [:h2.employer "Pacific Northwest National Laboratory - Data Scientist"]
+   [:p.timeline "2019 - Present"]
    [:h3.about-header "Technology"]
    [:ul.experience
-    [:li "Clojure, C#, Python, Java, C++, CUDA, Scala, Spark, Databricks"]
-    [:li "ArcMap, QGIS"]
-    [:li "Docker, Kubernetes"]
+    [:li "Clojure, C#, Python, Java, C++, CUDA, Scala, Spark, Databricks, React.js, Kepler.js, Mapbox-gl, Leaflet"]
+    [:li "ArcMap, QGIS, Geoserver"]
+    [:li "Docker, Kubernetes, Jupyter"]
     [:li "Azure Functions, Logic Apps, Batch, AD, Elastic Container Registry, VM Setup"]
     [:li "Hurricane Event Two-Dimensional Floodplain Modeling"]]
    [:h3.about-header "Experience"]
@@ -60,7 +61,22 @@
     [:li "Create a React.js client utilizing material-ui, mapbox-gl, kepler.gl and deck.gl"]
     [:li "Analyze Water System Models using a pressure dependent solver for resilency studies, writing reports to summarize results"]
     [:li "Model Hurricane Events using Two-Dimensional Floodplain Modeling Software"]]
+   [:h2.employer "Health Praxis - Co-Founder"]
+   [:p.timeline "2017 - Present"]
+   [:h3.about-header "Technology"]
+   [:ul.experience
+    [:li "Python, Flask, Zappa, SQLAlchemy, Jupyter"]
+    [:li "React.js, GraphQL"]
+    [:li "Shell Scripting, Postgresql, SOLR, Apache Spark"]]
+    [:li "AWS Batch, RDS, Aurora, Glue, Lambda Functions, s3"]
+   [:h3.about-header "Experience"]
+   [:ul.experience
+    [:li "Architect a serverless, scalable web application"]
+    [:li "Develop GraphQL API for interactions with SOLR and RDS"]
+    [:li "Create data pipelines and inclusion of big data solutions"]
+    [:li "Assist in setup of an LLC and product development"]]
    [:h2.employer "Davis County - Software Engineer IV"]
+   [:p.timeline "2017 - 2019"]
    [:h3.about-header "Technology"]
    [:ul.experience
     [:li "Dotnet core, .NET MVC, C#, Angular 5+, Python"]
@@ -81,6 +97,7 @@
     [:li "Develop product using c++"]
     [:li "Create a diversity of skills"]]
    [:h2.employer "Intermountain Healthcare - Software Engineer"]
+   [:p.timeline "2014 - 2017"]
    [:h3.about-header "Technology"]
    [:ul.experience
     [:li "Java, Spring boot, Angular.js, D3.js, Apache SOLR, Apache Zookeeper, R, Spark, SQL"]]
@@ -100,6 +117,7 @@
     [:li "Perform multiple statistical analyses including linear and logistic regression, ANOVA, MANOVA, summary statistics"]
     [:li "Present statistical outcomes to physician groups including defense of statistical methods"]]
    [:h2.employer "Herriman City - City Engineer"]
+   [:p.timeline "2010 - 2014"]
    [:h3.about-header "Technology"]
    [:ul.experience
     [:li "ArcMAP, AutoCAD Civil 3D, SWMM, WaterCAD, HEC-RAS, ESRI Javascript API, python"]]
@@ -121,8 +139,21 @@
    [:p.experience "About page"]])
 
 (defn contact-page []
-  [:div
-   [:p "Contact page"]])
+  [:div.container
+   [:div.c-section
+   [:h4.c-title "EMAIL"]
+   [:a {:href "mailto: mark.jensen1@gmail.com"}
+    [:img.contact-icon {:src "img/email.svg"}]]]
+
+   [:div.c-section
+   [:h3.c-title "FACEBOOK"]
+   [:a {:href "https://www.facebook.com/profile.php?id=830724473"}
+    [:img.contact-icon {:src "img/facebook.svg"}]]]
+
+   [:div.c-section
+   [:h3.c-title "TWITTER"]
+   [:a {:href "https://twitter.com/BigVikingMJ"}
+    [:img.contact-icon {:src "img/twitter.svg"}]]]])
 
 (defn item-page [match]
   (let [{:keys [path query]} (:parameters match)
