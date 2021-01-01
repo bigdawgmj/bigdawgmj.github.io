@@ -67,8 +67,8 @@
    [:ul.experience
     [:li "Python, Flask, Zappa, SQLAlchemy, Jupyter"]
     [:li "React.js, GraphQL"]
-    [:li "Shell Scripting, Postgresql, SOLR, Apache Spark"]]
-    [:li "AWS Batch, RDS, Aurora, Glue, Lambda Functions, s3"]
+    [:li "Shell Scripting, Postgresql, SOLR, Apache Spark"]
+    [:li "AWS Batch, RDS, Aurora, Glue, Lambda Functions, s3"]]
    [:h3.about-header "Experience"]
    [:ul.experience
     [:li "Architect a serverless, scalable web application"]
@@ -88,6 +88,7 @@
     [:li "Architect new projects and design the backend and front-end interactions"]
     [:li "Mentor junior developers and teach Agile and TDD principles to development team"]]
    [:h2.employer "3M - Senior Software Engineer"]
+   [:p.timeline "2017"]
    [:h3.about-header "Technology"]
    [:ul.experience
     [:li "C++"]]
